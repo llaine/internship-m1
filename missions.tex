@@ -1,0 +1,111 @@
+\usefont{OT1}{phv}{m}{n}
+
+\chapter{Missions}
+
+\section{Commande initiale}
+
+C'est dans le contexte de la nouvelle application Purple Base que j'ai été recruté en stage. 
+Ce logiciel devant être une application multi-plateforme j'étais en charge de développer la version tablette. 
+
+Mais les fonctionnalités devant être adaptées sur tablette n'étant pas prête le jour de mon arrivé, j'ai donc travaillé sur d'autres missions tout au long de mon stage. 
+
+
+\section{Missions réalisées durant le stage}
+
+\subsection{Mise en place du référentiel}
+
+% Pourquoi ?
+Ma première mission fut de réfléchir à la mise en place d'une solution de stockage et de traitement de données dans le cadre du référentiel de données pour Purple Base. 
+Une base de données avait déjà été selectionnée par l'équipe de développeurs appelée \gls{elasticsearch} 
+pour ses capacités à pouvoir traiter et stocker de très grosses masses de données. 
+
+% Qu'est-ce qui a été fait ? 
+Pendant un \gls{sprint} je me suis plongé dans diverses ressources, avec comme but de collecter un maximum de connaissances sur \gls{elasticsearch}. 
+
+Ce fut l'occasion de lire un livre sur le fonctionnement détaillé de la base de données, mais également de parcourir blogs et site diverses sur le sujet.
+
+Puisque le fruit de mes recherches est destiné aux autres développeurs, il était primordial qu'une restitution écrite soit fournie, en plus de celle orale à la fin du sprint.
+J'ai par conséquent documenté tout ce le travail effectué, sur le \gls{wiki} pour permettre à l'équipe d'avoir une trace du travail réalisé.
+
+% Solutions trouvés
+Cette phase de recherche ma permis de pouvoir accumuler des connaissances pour pouvoir répondre aux questions de l'équipe technique. 
+J'ai également du me concentrer sur l'aspect "bonne pratiques" à mettre en place pour proposer une base solide et évolutive de la base données.  
+
+
+\subsection{Outillage de test}
+La seconde mission qui m'a été confiée fût de réfléchir à la mise en place de l'outillage de test sur Purple Base. 
+
+% Pourquoi ? 
+Pour que Purple Base soit vraiment le renouveau de Bob el Web, le pilotage de la qualité ne doit pas être mis à part. 
+En effet, en ne négligeant pas cet aspect, le logiciel aura des bases solides et pourra être maintenable sur le long terme. 
+\jumpOne
+% Qu'est-ce qui a été fait ? 
+Plusieurs sprints ont été consacrés à la recherche d'une solution pour mettre en place un processus de test fiable et évolutif dans le temps. 
+Après avoir étudié plusieurs framework de test, j'ai sélectionné à l'aide de mon maitre de stage, Karma et Jasmine (deux framework spécialisé dans le test JavaScript, AngularJS), pour leur flexibilité et facilité d'utilisation. 
+
+% Solutions trouvés et concepts abordés
+Cette seconde mission a encore une fois été l'occasion d'alterner phases de recherche et phase de rédaction sur le wiki. 
+Ce fut l'occasion pour moi, de me concentrer sur les bonnes pratiques du test à mettre en place sur des applications utilisant la technologie JavaScript/AngularJS. 
+% Annexes screenshot wiki et bonnes pratiques. 
+
+
+\subsection{Newsletter}
+
+% Pourquoi ?
+
+Dans le cadre de l'application Purple Base et de ses nouvelles fonctionnalités, j'ai dû travailler sur le développement d'un outil de création d'emailing. 
+
+En août 2014, la société à réalisé un sondage sur les clients, pour connaitre quelles étaient les fonctionnalités les plus demandés dans Bob Booking. 
+La possibilité de pouvoir créer et deployer par le biais d'un outil, des campagnes de communication numérique est apparu dans les premières position.
+ 
+
+\subsubsection{Qu'est-ce qu'un outil d'emailing ?}
+Ce logiciel, permet de créer des \gls{newsletter}, à l'aide de \gls{templates}.
+Il permet d'automatiser l'envoi de mails, d'intégrer les contenus sur les réseaux sociaux mais aussi de gérer des fichiers de contacts et de faire du suivis statistique des campagnes envoyées. 
+
+\subsubsection{Pourquoi l'e-mailing?}
+C'est un moyen très simple et peu cher de faire connaitre un produit ou un projet sur internet.
+Cette méthode consiste à envoyer des emails à des personnes, leur proposant le dit produit ou le projet. 
+Les emails, vont permettre de très facilement cibler la population souhaitée qui serait le plus à même d'être touchée par notre produit. 
+
+\paragraph{Exemple} Je vends un concert de Rock d'un groupe des années 80, j'aimerai donc envoyer des emails à mes clients, dans une tranche d'âge spécifique appreciant ce style musical. 
+
+Il est évident que l'on ne va pas rédiger chaque email à la main. 
+De même pour la création de l'email qui demande beaucoup de temps des compétences en design pour pouvoir réaliser quelque chose d'esthetique et professionnel. 
+
+C'est là où l'outil de création rentre en jeu !
+
+A partir de template pré-construit, on va pouvoir créer notre mail, ajoutant des images du texte, des liens, etc. 
+% Annnexe : newsletter BOB
+Cet email va pouvoir par la suite être envoyé à autant de personne souhaité (10 000, 20 000, etc) très facilement par le biais d'un système interne. 
+
+% Qu'est-ce qui a été fait ? 
+\subsubsection{Le projet}
+L'entreprise avait prévu d'internaliser le développement de la partie gestion des envois, mais le créateur d'email lui, de par sa complexité a initialement été externalisé.
+
+On m'a donc confié la réalisation du chiffrage, la rédaction du cahier des charges (écrit avec le patron de l'entreprise) % annexe : Mettre en annexe, cahier des charges et chiffrage. 
+et rechercher un prestataire pour réaliser l'outil. 
+
+Plusieurs prestataires ont répondu à l'appel, cependant soit leur prix ou leur disponibilité ne convenaient pas à l'entreprise. 
+Etant à quelques semaines de la fin du stage, j'ai proposé l'idée que je pouvais moi même développer l'outil.
+Cette idée a par la suite été acceptée.
+J'allais pouvoir m'appliquer à ne pas négliger le coté pilotage de la qualité, étant donné que je passais du rôle de client à prestataire. 
+
+% Concepts abordés
+Cette dernière mission m'a vraiment permis de me concentrer sur des questions de bonnes pratiques de la qualité à mettre en place dès le début du développement et celles qu'il est nécessaire de suivre par la suite tout au long du projet. 
+C'est aussi celle qui m'a permis de dégager la problématique liée à mon stage. 
+
+\section{Problématique liés aux missions}
+C'est donc tout naturellement que j'ai décidé d'orienter ma problèmatique vers le pilotage de la qualité. 
+\jumpOne
+Ces expériences de développement d'un nouvel applicatif à partir de l'existant (Bob Booking développé par la société en 2007), m'a confronté aux difficultés de conception d'un logiciel.
+J'ai du porter ma réflexion sur plusieurs sujets tels que : 
+\begin{itemize}
+\item Quelle architecture utiliser pour un nouveau projet ? 
+\item Comment penser sa maintenance à long terme ? 
+\item Comment anticiper les possibilités d'évolutions 
+\end{itemize}
+Pour surmonter ces difficultés, la communication avec l'équipe technique ma permis de réfléchir en prenant en compte leurs expériences antérieurs de développeurs avec ses échec et ses réussites. 
+
+
+

@@ -1,0 +1,68 @@
+\documentclass{report}
+
+% Définitions des packages
+% Encodage
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Commande spécifique au language français
+\usepackage[frenchb]{babel}
+\usepackage[autolanguage]{numprint}
+\usepackage{hyphenat}
+
+
+% Autres packages, graphique, etc. 
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage[final]{pdfpages}
+\usepackage{xcolor}
+\usepackage{layout}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{float}
+\usepackage{titlesec, color}
+\usepackage{eurosym}
+\usepackage{eso-pic}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\usepackage[toc]{glossaries}
+
+
+\makeglossaries
+
+% Redéfinitions de macro et commandes
+\include{commands}
+% Paramètres et styles généraux du rapport. 
+\include{settings}
+
+\input{glossaire.tex}
+
+\begin{document}
+    
+    \input{page_de_garde.tex}
+    
+    \input{remerciements.tex}
+    
+    \tableofcontents
+    
+    \input{summary.tex}
+    
+    \input{introduction.tex}
+    
+    \input{missions.tex}
+    
+    \input{pilotage_quali.tex}
+    
+    \input{agilite.tex}
+    
+    \input{conclusion.tex}
+    
+    \input{annexes.tex}
+    
+    \clearpage
+    
+    \printglossary
+
+\end{document}
